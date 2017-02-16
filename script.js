@@ -12,7 +12,7 @@ function Idea(id, title, body, quality) {
 $('#saveButton').prop('disabled', true);
 
 
-$('input[type=text]').on('keyup', function(){
+$('.input').on('keyup', function(){
   var title = $('#titleInput').val();
   var body = $('#bodyInput').val();
   if (title !== '' || body !== ''){

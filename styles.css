@@ -33,7 +33,7 @@ form.input-fields {
   width: 90%;
 }
 
-.title-input {
+#titleInput {
   width: 90%;
   height: 30px;
   padding-left: 5px;
